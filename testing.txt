@@ -4,6 +4,8 @@ This is the sart of testing.txt
 
 I added this file from a new clone!
 
+BOOGH
+
 *************************************
 This is the end of testing.txt
 *************************************
