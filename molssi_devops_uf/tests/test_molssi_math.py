@@ -7,7 +7,8 @@ import molssi_devops_uf as md_uf
 @pytest.mark.parametrize("num_list, expected_mean", [
     ([1, 2, 3, 4, 5], 3),
     ([0, 2, 4, 6], 3),
-    ([1, 2, 3, 4], 2.5)
+    ([1, 2, 3, 4], 2.5),
+    ([1, 2, 3], 3)
 ])
 
 def test_many(num_list, expected_mean):
